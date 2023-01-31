@@ -1,3 +1,50 @@
+nav {
+    width: 98%;
+    padding: 1%;
+    text-align: end;
+    margin-left: auto;
+    background-color: white;
+}
+
+ul {
+    width: 90%;
+}
+
+h1 {
+    color: #320A18;
+    font-size: 36px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500px;
+}
+
+a {
+    color: #893251;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+    border-top: 1px solid #893251;
+    height: 50px;
+    padding-bottom: 32px;
+    background-color: white;
+}
+
+.bottomfooter {
+    padding-top: 22px;
+    margin: 0 auto;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -13,18 +60,6 @@
 .navigation {
     display: flex;
     border-bottom: 1px solid #893251;
-}
-
-nav {
-    width: 98%;
-    padding: 1%;
-    text-align: end;
-    margin-left: auto;
-    background-color: white;
-}
-
-ul {
-    width: 90%;
 }
 
 .navbar {
@@ -66,15 +101,35 @@ ul {
     margin-bottom: 15px;
 }
 
+.UX_Skills {
+    padding-left: 120px;
+    width: 400px;
+}
+
+.UI_Skills {
+    width: 400px;
+    margin-right: 50px;
+}
+
+.software {
+    width: 400px;
+    padding-right: 60px;
+}
+
+.sw {
+    display: flex;
+    flex-direction: row;
+}
+
 .hobbies {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;   
+    justify-content: space-around;   
     padding-top: 50px; 
     padding-bottom: 20px;
     text-align: center;
-    background-color:#fdf3ed;   
-
+    background-color:#fdf3ed; 
+    border-bottom: 1px solid #893251;  
 }
 
 .game {
@@ -87,38 +142,22 @@ ul {
     max-width: 260px;
 }
 
-h1 {
-    color: #320A18;
-    font-size: 36px;
-    font-family: 'Lora', serif;
-    font-style: italic;
-    font-weight: 500px;
-}
-
-p {
-    font-family: 'Lato', sans-serif;
-}
-
-li {
-    font-family: 'Lato', sans-serif;
-}
-
-footer {
+.works {
+    display: grid;
+    grid-template-areas: 'jap' 'baga';
+    justify-content: center;
     text-align: center;
-    padding-top: 25px;
-    border-top: 1px solid #893251;
-    height: 50px;
+    background-color:#fdf3ed; 
+    padding-bottom: 40px;
 }
 
-.bottomfooter {
-    padding-top: 22px;
-    margin: 0 auto;
-    padding-bottom: 25px;
+.JAP {
+    grid-area: jap;
+    padding-bottom: 50px;
 }
 
-a {
-    color: #893251;
-    font-family: 'Lato', sans-serif;
+.BAGA {
+    grid-area: baga;
 }
 
 .Magenta_Button {
@@ -136,3 +175,4 @@ a {
     box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 15px 30px 0 rgba(0,0,0,0.19);
     cursor: pointer;
   }
+
