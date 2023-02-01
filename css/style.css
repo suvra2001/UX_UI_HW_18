@@ -176,3 +176,24 @@ footer {
     cursor: pointer;
   }
 
+  @media only screen and (max-width:600) {
+    .Skills {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #893251;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+    .hobbies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        padding-top: 50px; 
+        padding-bottom: 20px;
+        text-align: center;
+        background-color:#fdf3ed; 
+        border-bottom: 1px solid #893251;  
+    }
+  }
