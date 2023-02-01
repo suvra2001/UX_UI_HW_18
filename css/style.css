@@ -18,6 +18,13 @@ h1 {
     font-weight: 500px;
 }
 
+h3 {
+    color: #320A18;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+}
+
 a {
     color: #893251;
     font-family: 'Lato', sans-serif;
@@ -109,6 +116,7 @@ footer {
 .UI_Skills {
     width: 400px;
     margin-right: 50px;
+    margin-left: 50px;
 }
 
 .software {
